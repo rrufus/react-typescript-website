@@ -11,6 +11,9 @@ interface ButtonsProps {
 const ButtonStyle = styled.a`
   color: gray;
   text-decoration: none;
+  &:hover {
+      color: white;
+  }
 `;
 
 const Button: React.SFC<ButtonProps> = (b: ButtonProps) => {
