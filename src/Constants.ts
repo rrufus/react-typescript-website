@@ -1,7 +1,8 @@
-export const Intro = `
+export const Intro = `I am a full stack software engineer and tech lead with a degree in Physics.`;
 
-I am a full stack software engineer and tech lead.
+export const MoreInfo = `I am experienced in leading small teams 
+through MVPs using the extreme programming methodology.`;
 
-`;
+export const FavouriteLang = 'My favourite language is golang.';
 
-export const MoreInfo = `I am experienced in leading teams who follow the extreme programming guidelines.`;
+export const FrontEnd = 'On the front end, I like React and Typescript.';

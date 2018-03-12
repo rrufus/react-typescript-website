@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { TitleText, Description } from './components/Title';
-import { Intro, MoreInfo } from './Constants';
+import { Intro, MoreInfo, FavouriteLang, FrontEnd } from './Constants';
 import Buttons from './components/Buttons';
 
 const BlackBackground = styled.div`
@@ -30,9 +30,11 @@ const ImageBox = styled.div`
 `;
 
 const Headshot = styled.img`
-width: auto;
-max-height: 100%;
+width: 50%;
+min-width: 350px;
+max-height: 140%;
 object-fit: contain;
+z-index: -1;
 `;
 
 class App extends React.Component {
@@ -44,8 +46,8 @@ class App extends React.Component {
           <TitleText>Rufus Russell</TitleText>
           <Description>{Intro}</Description>
           <Description>{MoreInfo}</Description>
-          <Description>My favourite language is golang.</Description>
-          <Description>On the front end, I like React and Typescript.</Description>
+          <Description>{FavouriteLang}</Description>
+          <Description>{FrontEnd}</Description>
         </ ContainingDiv >
         <ImageBox><Headshot src="headshot.png" /></ImageBox>
       </BlackBackground>
