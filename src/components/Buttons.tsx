@@ -31,7 +31,7 @@ const Buttons: React.SFC<ButtonsProps> = () => {
             <Button text="Instagram" link="https://www.instagram.com/rufusrussell/" />
             <Button text="Medium" link="https://medium.com/@rufusrussell" />
             <Button text="Resume" link="./res_general.pdf" />
-            <Button text="Twitter" link="https://twitter.com/rufusr_official" />
+            <Button text="Linkedin" link="https://www.linkedin.com/in/rufus-russell-30a6606b" />
         </ButtonListStyle>
     );
 };
