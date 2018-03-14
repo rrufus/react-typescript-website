@@ -6,3 +6,5 @@ through MVPs using Extreme Programming.`;
 export const FavouriteLang = 'My favourite language is golang.';
 
 export const FrontEnd = 'On the front end, I like React and Typescript.';
+
+export const Site = 'code for site is here';

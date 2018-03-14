@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { TitleText, Description } from './components/Title';
-import { Intro, MoreInfo, FavouriteLang, FrontEnd } from './Constants';
+import { Intro, MoreInfo, FavouriteLang, FrontEnd, Site } from './Constants';
 import Buttons from './components/Buttons';
 
 const BlackBackground = styled.div`
@@ -38,6 +38,18 @@ z-index: -1;
 opacity: 0.6;
 `;
 
+const SiteInfo = styled.a`
+bottom: 0;
+position: fixed;
+color: gray;
+text-align: center;
+font-size: 10px;
+width: 100%;
+text-decoration: none;
+&:hover {
+  color: white;
+}`;
+
 class App extends React.Component {
   render() {
     return (
@@ -51,6 +63,7 @@ class App extends React.Component {
           <Description>{FrontEnd}</Description>
         </ ContainingDiv >
         <ImageBox><Headshot src="headshot.png" /></ImageBox>
+        <SiteInfo href="https://github.com/rrufus/react-typescript-website">{Site}</SiteInfo>
       </BlackBackground>
     );
   }
