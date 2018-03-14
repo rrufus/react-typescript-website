@@ -22,7 +22,9 @@ const Button: React.SFC<ButtonProps> = (b: ButtonProps) => {
 
 const ButtonListStyle = styled.div`
 display: flex;
-justify-content: space-between;`;
+justify-content: space-around;
+flex-wrap: wrap;
+`;
 
 const Buttons: React.SFC<ButtonsProps> = () => {
     return (
