@@ -35,6 +35,7 @@ min-width: 350px;
 max-height: 140%;
 object-fit: contain;
 z-index: -1;
+opacity: 0.6;
 `;
 
 class App extends React.Component {
