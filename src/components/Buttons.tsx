@@ -29,11 +29,11 @@ flex-wrap: wrap;
 const Buttons: React.SFC<ButtonsProps> = () => {
     return (
         <ButtonListStyle>
-            <Button text="Github" link="https://github.com/rrufus" />
+            <Button text="GitHub" link="https://github.com/rrufus" />
             <Button text="Instagram" link="https://www.instagram.com/rufusrussell/" />
             <Button text="Medium" link="https://medium.com/@rufusrussell" />
-            <Button text="Resume" link="./res_general.pdf" />
-            <Button text="Linkedin" link="https://www.linkedin.com/in/rufus-russell-30a6606b" />
+            <Button text="CV" link="./res_general.pdf" />
+            <Button text="LinkedIn" link="https://www.linkedin.com/in/rufus-russell-30a6606b" />
         </ButtonListStyle>
     );
 };
